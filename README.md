@@ -1,8 +1,8 @@
-#Description
+# Description
 Strategy class file is on charge of taking the trading decisions of the bot. For initiating the execution of the bot we use an index file which will create an instance of our strategy, we must provide 2 arguments, the first is the mode of operation, current supported methods are "backtesting"
 and "production", the second argument is the contract address of the asset collection that we are to use as basis of the trading operation.
 
-#Disclaimer
+# Disclaimer
 For testing purposes we will look for the first 300 nfts for trading oportunities. (OpenSea is very strict with the api request rate, and the sandbox land collection has more than 100000 assets).
 
 Once we get all the current trading offers for every selected asset we proceed 
