@@ -25,3 +25,6 @@ in Opensea marketplace, then we replay the buy orders on a ganache network.
 
 In a terminal run ts-node index.ts. To change the operation method, change the first argument on the strategy instance creation.
 
+The other components of this dapp:
+   - [Contracts](https://github.com/metagamehub/MetaverseStaking/tree/main/contracts)
+   - [Frontend](https://github.com/metagamehub/MGH-App/tree/mvstaking)
